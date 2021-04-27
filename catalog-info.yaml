@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rick-test-react-app
+  description: just a test app
+  annotations:
+    github.com/project-slug: rick-td/test1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: Rick Funderburg
